@@ -31,14 +31,24 @@ install git
 install terminator
 install zsh 
 install npm 
+install neovim 
+install python-dev 
+install python-pip 
+install python3-dev 
+install python3-pip
+install python3-neovim 
 
 
 # npm modules
 
-install-module commitizen  
 install-module turbo-git  
+install-module commitizen  
+install-module cz-conventional-changelog
 
 # other stuff
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# -- setup conventional changelog
+echo "{ 'path': 'cz-conventional-changelog' }" >> ~/.czrc
+tput setaf 3; echo "End! Ready to rock"
 
