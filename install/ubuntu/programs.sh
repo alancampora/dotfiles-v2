@@ -51,5 +51,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # -- setup conventional changelog
 echo '{ "path": "cz-conventional-changelog" }' >> ~/.czrc
 
-tput setaf 3; echo "End! Ready to rock"
+# -- aliases 
+echo 'alias vim="nvim -u ~/.dotfiles/nvim/init.vim"' >> ~/.zshrc
 
+tput setaf 3; echo "End! Ready to rock"
