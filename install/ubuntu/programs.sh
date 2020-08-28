@@ -49,6 +49,7 @@ install-module cz-conventional-changelog
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # -- setup conventional changelog
-echo "{ 'path': 'cz-conventional-changelog' }" >> ~/.czrc
+echo '{ "path": "cz-conventional-changelog" }' >> ~/.czrc
+
 tput setaf 3; echo "End! Ready to rock"
 

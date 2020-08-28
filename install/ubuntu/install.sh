@@ -1,2 +1,3 @@
 #!/bin/bash 
-sudo bash ./programs.sh
+bash ./programs.sh
+bash ./base16.sh
