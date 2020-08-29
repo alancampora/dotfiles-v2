@@ -8,11 +8,14 @@ Clone this repo inside $HOME/.dotfiles
 Install commands should install all global programs such us git, python and all modules needed tostart working. 
 
 ```bash
-sudo bash .dotfiles/install/ubuntu/install.sh
+sudo 
+bash .dotfiles/install/ubuntu/install.sh
 ```
 
-# Todo : symlinks to files 
+# Donwload nerd-font and setup terminal 
+https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Retina/complete/Fura%20Code%20Retina%20Nerd%20Font%20Complete.otf
+
+# Todo 
 * setup .vimrc and all plugins
-* setup .zshrc
 
 
