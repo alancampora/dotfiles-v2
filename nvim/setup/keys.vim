@@ -1,2 +1,2 @@
-set number
+" relative line number
 let mapleader = " "
