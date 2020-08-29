@@ -1,4 +1,5 @@
-
 source ~/.dotfiles/nvim/plugins.vim
+source ~/.dotfiles/nvim/setup/plugins/base16.vim
 source ~/.dotfiles/nvim/setup/keys.vim
 source ~/.dotfiles/nvim/setup/plugins/nerdtree.vim
+source ~/.dotfiles/nvim/setup/plugins/choosewin.vim
