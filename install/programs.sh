@@ -48,9 +48,7 @@ install-module commitizen
 install-module cz-conventional-changelog
 
 # other stuff
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh | bash
 
-# -- setup conventional changelog
-echo '{ "path": "cz-conventional-changelog" }' >> ~/.czrc
 
 tput setaf 3; echo "End! Ready to rock"
