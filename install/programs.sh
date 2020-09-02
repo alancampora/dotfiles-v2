@@ -28,9 +28,11 @@ sudo apt update
 # global apps 
 
 install git
+install curl
 install terminator
 install zsh 
 install npm 
+install yarn 
 install neovim 
 install python-dev 
 install python-pip 
