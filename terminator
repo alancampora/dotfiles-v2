@@ -12,7 +12,7 @@
     allow_bold = False
     icon_bell = False
     cursor_color = "#aaaaaa"
-    font = FuraCode Nerd Font weight=453 20
+    font = FuraCode Nerd Font weight=453 16
     show_titlebar = False
     use_system_font = False
     copy_on_selection = True

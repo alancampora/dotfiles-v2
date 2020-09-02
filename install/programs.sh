@@ -39,7 +39,8 @@ install python-pip
 install python3-dev 
 install python3-pip
 install python3-neovim 
-
+install postgresql 
+install postgresql-contrib
 # dev projects tools
 install mongodb-clients
 
