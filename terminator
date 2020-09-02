@@ -1,0 +1,29 @@
+[global_config]
+  dbus = False
+  window_state = hidden
+  tab_position = bottom
+[keybindings]
+  move_tab_right = <Primary><Alt>Right
+  move_tab_left = Page_Down
+  next_tab = <Primary><Shift>Right
+  prev_tab = <Primary><Shift>Left
+[profiles]
+  [[default]]
+    allow_bold = False
+    icon_bell = False
+    cursor_color = "#aaaaaa"
+    font = FuraCode Nerd Font weight=453 20
+    show_titlebar = False
+    use_system_font = False
+    copy_on_selection = True
+    rewrap_on_resize = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
