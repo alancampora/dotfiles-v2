@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 
 #aliases
 alias vim="nvim -u ~/.dotfiles/nvim/init.vim"
+alias vimfiles="cd ~/.dotfiles/nvim && vim init.vim"
 
 # Base16 Shell
 BASE16_SHELL="$HOME/.config/base16-shell/"

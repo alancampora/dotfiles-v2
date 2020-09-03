@@ -8,3 +8,6 @@ hi vertsplit guifg=fg guibg=bg
 
 " no swap file alert 
 set noswapfile
+ 
+"spaces
+set tabstop=2 shiftwidth=2 expandtab
