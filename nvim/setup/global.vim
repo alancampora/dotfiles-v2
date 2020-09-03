@@ -11,3 +11,6 @@ set noswapfile
  
 "spaces
 set tabstop=2 shiftwidth=2 expandtab
+
+"paste terminal symbol issues
+set t_BE=

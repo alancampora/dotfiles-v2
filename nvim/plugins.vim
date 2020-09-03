@@ -5,5 +5,8 @@ Plug 'preservim/nerdcommenter'
 Plug 'chriskempson/base16-vim'
 Plug 't9md/vim-choosewin'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'SirVer/ultisnips'
 
 call plug#end()
