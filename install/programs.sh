@@ -41,6 +41,7 @@ install python3-pip
 install python3-neovim 
 install postgresql 
 install postgresql-contrib
+install redis-server
 # dev projects tools
 install mongodb-clients
 
