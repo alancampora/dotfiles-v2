@@ -8,5 +8,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'SirVer/ultisnips'
+Plug 'jparise/vim-graphql' 
 
 call plug#end()

@@ -109,3 +109,4 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
         eval "$("$BASE16_SHELL/profile_helper.sh")"
 
 export PATH=~/.npm-global/bin:$PATH
+setxkbmap -option caps:swapescape

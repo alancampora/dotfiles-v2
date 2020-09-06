@@ -44,7 +44,8 @@ install postgresql-contrib
 install redis-server
 # dev projects tools
 install mongodb-clients
-
+install redshift 
+install redshift-gtk
 # npm modules
 
 install-module turbo-git  
