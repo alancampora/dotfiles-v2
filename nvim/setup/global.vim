@@ -11,4 +11,9 @@ set tabstop=2 shiftwidth=2 expandtab
 "paste terminal symbol issues
 set t_BE=
 
-set cursorline
+"highlight cursor line
+set cursorline 
+
+"separation line
+set encoding=utf8
+set fillchars=vert:│

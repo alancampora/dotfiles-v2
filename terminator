@@ -3,10 +3,11 @@
   window_state = hidden
   tab_position = bottom
 [keybindings]
+  new_tab = <Primary><Shift>k
   move_tab_right = <Primary><Alt>Right
   move_tab_left = Page_Down
-  next_tab = <Primary><Shift>Right
-  prev_tab = <Primary><Shift>Left
+  next_tab = <Primary><Shift>l
+  prev_tab = <Primary><Shift>h
 [profiles]
   [[default]]
     allow_bold = False
