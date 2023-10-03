@@ -10,5 +10,6 @@ source ~/.dotfiles/nvim/setup/plugins/coc.vim
 source ~/.dotfiles/nvim/setup/plugins/tsx.vim
 source ~/.dotfiles/nvim/setup/plugins/snippets.vim
 source ~/.dotfiles/nvim/setup/plugins/fzf.vim
+source ~/.dotfiles/nvim/setup/plugins/ctrlsf.vim
 
 

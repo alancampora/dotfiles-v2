@@ -99,18 +99,24 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #aliases
-alias vim="nvim -u ~/.dotfiles/nvim/init.vim"
+alias v="nvim -u ~/.dotfiles/nvim/init.vim"
 alias vimfiles="cd ~/.dotfiles/nvim && vim init.vim"
 alias bm="base16-manager"
 
 # Base16 Shell
-BASE16_SHELL="$HOME/.config/base16-shell/"
+#BASE16_SHELL="$HOME/.config/base16-shell/"
+
+BASE16_SHELL=$HOME/.config/base16-manager/chriskempson/base16-shell/
+
 [ -n "$PS1" ] && \
     [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
         eval "$("$BASE16_SHELL/profile_helper.sh")"
 
 export PATH=~/.npm-global/bin:$PATH
-setxkbmap -option caps:swapescape
 
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+export N_PREFIX=$HOME/.n
+export PATH="$N_PREFIX/bin:$PATH"
+export PATH=$PATH:/projects/oa-suite/scripts/bin
